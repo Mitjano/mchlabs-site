@@ -17,31 +17,33 @@
 </head>
 <body>
 <h1>Privacy Policy — LUMEN</h1>
-<p class="meta">Last updated: 4 July 2026 · App: <code>com.mchlabs.lumen</code> · Developer: MCH Labs · Contact: michalchmielarz00@gmail.com</p>
+<p class="meta">Last updated: 11 October 2026 · App: <code>com.mchlabs.lumen</code> · Developer: MCH Labs · Contact: michalchmielarz00@gmail.com</p>
 
 <h2>1. Who we are</h2>
 <p>LUMEN is a match‑3 puzzle game published by MCH Labs ("we", "us"). This policy explains what data the game processes, why, and your choices. Questions: michalchmielarz00@gmail.com.</p>
 
 <h2>2. Data we process</h2>
-<p><strong>a) A pseudonymous account identifier.</strong> On first launch we create an anonymous account via Google Firebase Authentication, identified by a random ID ("UID"). It is not linked to your real identity and needs no personal details.</p>
-<p><strong>b) Your game progress (cloud save).</strong> To prevent progress loss and enable cross‑device play, we store gameplay data in Google Cloud Firestore tied to your UID: levels completed, stars, coins, streaks, season‑pass progress, your display name, and any team code.</p>
-<p><strong>c) Your display name ("nick").</strong> The game assigns a random display name (e.g. "SzybkiTygrys7297"); you can change it in Settings. This name is shown publicly on the global leaderboard and to members of any team you join. Do not use your real name or personal information as your display name.</p>
-<p><strong>d) Optional email address.</strong> Linking an email + password is optional; if you do, your email is stored by Firebase Authentication to restore progress on another device. You can play the whole game without an email.</p>
-<p><strong>e) Leaderboard and team data.</strong> Your display name and total star count are published to a global leaderboard visible to other players. In a team, your display name and star contribution are visible to that team's members.</p>
-<p><strong>f) Diagnostic and usage data.</strong> We may collect anonymous, aggregated gameplay and diagnostic data (e.g. levels started/finished, crashes, approximate device/region) via Google Firebase Analytics and Crashlytics to fix bugs and balance difficulty. This is tied to a pseudonymous identifier, not your name.</p>
-<p>We do <strong>not</strong> knowingly collect precise location, contacts, photos, microphone, or other sensitive personal data.</p>
+<p><strong>a) A pseudonymous account identifier.</strong> On first launch we create an anonymous account via Google Firebase Authentication, identified by a random ID (“UID”). It is not linked to your real identity and needs no personal details.</p>
+<p><strong>b) Your game progress (cloud save).</strong> To prevent progress loss and let you continue on another device, we store gameplay data in Google Cloud Firestore tied to your UID: levels completed, stars, coins, streaks, boosters, owned cosmetics (skins, frames, avatars), your display name and any team code.</p>
+<p><strong>c) Your display name (“nick”).</strong> The game assigns a random display name (e.g. “SzybkiTygrys7297”); you can change it in Settings. Names are checked by a profanity filter. Do not use your real name or personal information.</p>
+<p><strong>d) Optional email address.</strong> Linking an email and password is optional; if you do, your email is stored by Firebase Authentication so you can restore progress on another device. You can play the whole game without an email.</p>
+<p><strong>e) Public leaderboard and team data.</strong> Your display name and star count appear on the global leaderboard and weekly tournament. Team names are public in the team league. In a team, your display name and contribution are visible to its members, and a team gift shows the sender’s display name. There is no chat in the game.</p>
+<p><strong>f) Gameplay events.</strong> To fix bugs and balance difficulty, the game sends simple gameplay events (for example level started or finished, tutorial steps) with the app version, a timestamp and your UID to our Firestore database. We do not use Firebase Analytics, Crashlytics or advertising identifiers, and the game shows no ads.</p>
+<p><strong>g) Remote settings.</strong> To fetch balance settings, the game sends a random installation identifier to Firebase Remote Config.</p>
+<p>We do <strong>not</strong> collect precise location, contacts, photos, microphone, or other sensitive personal data.</p>
 
 <h2>3. How we use data</h2>
-<p>To save and restore progress; to operate the leaderboard, teams, and season pass; to keep the game working, fix crashes, and balance difficulty; to prevent abuse and cheating. We do <strong>not</strong> sell your data.</p>
+<p>To save and restore progress; to operate the leaderboard, tournament, teams and league; to keep the game working and balance difficulty; to prevent abuse and cheating. We do <strong>not</strong> sell your data.</p>
 
 <h2>4. Third‑party services</h2>
-<p>LUMEN uses Google Firebase (Authentication, Cloud Firestore, Analytics, Crashlytics), which processes data as our service provider. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy">Firebase data handling</a>.</p>
+<p>LUMEN uses Google Firebase (Authentication, Cloud Firestore, Remote Config), which processes data as our service provider. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy">Firebase data handling</a>.</p>
 
-<h2>5. Data retention</h2>
-<p>We keep your cloud save and account data while your account exists. Request deletion any time by emailing michalchmielarz00@gmail.com; we will delete it within 30 days.</p>
+<h2>5. Deleting your account and data</h2>
+<p>In the game: <strong>Account → Delete account</strong>. This removes your cloud save, profile, leaderboard and tournament entries, team membership, gameplay events and your account, and resets the game on your device. Step‑by‑step instructions: <a href="https://mitjano.github.io/mchlabs-site/lumen/delete-account.html">How to delete your LUMEN account</a>.</p>
+<p>If you cannot use the app, email michalchmielarz00@gmail.com from the address linked to your account (or include your display name) and we will delete your data within 30 days. We keep data only while your account exists.</p>
 
 <h2>6. Your choices and rights</h2>
-<p>Play fully anonymously (email never required); change or randomise your public display name in Settings; request access to or deletion of your data. Depending on where you live (e.g. EU/EEA under GDPR, California under CCPA) you may have additional rights — contact us to exercise them.</p>
+<p>Play fully anonymously (email never required); change your public display name in Settings; delete your account at any time. Depending on where you live (e.g. EU/EEA under GDPR, California under CCPA) you may have additional rights, such as access to your data; contact us to exercise them.</p>
 
 <h2>7. Children</h2>
 <p>LUMEN is intended for a general audience and is <strong>not directed at children under 13</strong> (under 16 in the EEA). We do not knowingly collect personal data from children; if you believe a child provided us data, contact us and we will delete it.</p>
